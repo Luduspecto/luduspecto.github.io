@@ -9,33 +9,138 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <title>Schafkopf Luduspecto</title>
+    <link rel="icon" href="/image/icon.png">
   </head>
   <body>
-    <!-- #region main page-->
-    <div class="container-sm">
-        <div class="row">
-            <div class="col">
-                <img src="/image/icon.png" alt="Schafkopf Oflline Lernen" class="img-thumbnail rounded">
-            </div>
-            <div class="col">
-                <div class="jumbotron">
-                    <h1 class="display-4">Luduspecto</h1>
-                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                    <hr class="my-4">
-                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                </div>
 
-                <div class="jumbotron">
+    <!-- #region Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="/image/icon.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+          Luduspecto
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link" href="#">Appentwicklung</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Preise</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Optionen
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Datenschutzerklärung</a>
+                    <a class="dropdown-item" href="#">Kontakt</a>
+                </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- #endregion -->
+
+    <!-- #region main page-->
+    <div class="container">
+        <div class="row">
+            <!-- #region Left Column-->
+            <div class="col-4">
+                <div class="row">
                     <h1 class="display-4">Schafkopf Offline Lernen</h1>
-                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                    <hr class="my-4">
-                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </div>
+                <div class="row">
+                    <img src="/image/icon.png" alt="Schafkopf Oflline Lernen" class="float-left rounded">
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a href='https://play.google.com/store/apps/details?id=com.luduspecto.Schafkopfen&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Jetzt bei Google Play' src='https://cdn.supercell.com/supercell.com/201009135245/all/themes/supercell/img/18/footer_googleplay.png' style="height: 40px; width: auto;"/></a>
+                    </div>
+                    <div class="col">
+                        <a href="https://apps.apple.com/us/app/"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/de-DE?size=250x83&amp;releaseDate=1498176000&h=4d53fa01e3fc68a9e19c10d01df18b82" alt="Download on the App Store" style="height: 40px; width: auto;"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region rigth column-->
+            <div class="col-8">
+                <h5><b>Lerne Schafkopf von deinem Handy aus!</b></h5>
+                <p>Schafkopf Offline bietet dir ein detailliertes Tutorial, welches dir das Spiel vom Sauspiel bis zum Ramsch vollständig erklärt und gängige Strategien beibringt.
+                    Teste dein Wissen dann in unterhaltsamen Quizfragen.</p>
+
+                <h5><b>Übe gegen realistische Computergegner!</b></h5>
+                <p>Wir wissen wie nervig es ist, wenn es sich anfühlt, als würden die Computer nur zufällige Karten legen. Aus diesem Grund waren uns realistische Gegner in unserem Spiel von Tag 1 an die höchste Priorität.</p>
+
+                <h5><b>Lasse dir vom Assistenten helfen!</b></h5>
+                <p>Falls du dir jemals nicht ganz sicher sein solltest, welche Karte du legen solltest, welche Trümpfe schon gelegt wurden, oder mit dem du spielst, kann dir der neue Assistent live im Spiel helfen.</p>
+
+                <h5><b>Genieße eine App ohne Ingame-Käufe oder Werbungen.</b></h5>
+                <p>Werbungen, die das Spiel unterbrechen, oder am Bildschirmrand vom Spielgeschehen ablenken, sind nervig. Das wissen wir. Diese App enthält deshalb weder Werbungen, noch Ingame-Käufe.</p>
+
+                <h5><b>Passe das Spiel nach deinen Vorstellungen an!</b></h5>
+                <p>Wir bieten vielfältige Individualisierungsmöglichkeiten, wie:</p>
+                <ul>
+                <li>Neue und auch eigene Hintergrundbilder </li>
+                <li>Frei wählbare Hintergrundfarben für die Karten</li>
+                <li>Verschiedene Karten-Rückseiten</li>
+                </ul>
+                
+
+                <p>Alle Spiele (Ramsch, Wenz, Solo) können in den Einstellungen ein- und ausgestellt werden. Jegliche Zeitfenster, wie die Denkzeit der Computer-Gegner, oder die Zeit, in der die Karten auf dem Tisch liegen, können in den Einstellungen nach Belieben angepasst werden.</p>
+
+                <h5><b>Messe dich mit deinen Freunden!</b></h5>
+                <p>Achievements und Bestenlisten bieten einen spannenden Vergleich mit anderen Spielern.
+                    Untersuche mit ausführlichen Statistiken dein Spielverhalten und deinen Fortschritt.</p>
+
+                <h5><b>Weitere Features:</b></h5>
+                <!--<p>Außerdem bieten wir:</p>-->
+                
+                <ul>
+                    <li>Das Speichern und Ansehen von Spielen in der Wiederholung</li>
+                    <li>Handgezeichnete Spielkarten im Stil des bayerischen Blatts</li>
+                    <li>Intuitive Menüs</li>
+                    <li>Nützliche Features, wie ein “letzter Stich” Knopf</li>
+                </ul>
+                
+                <br>
+                <br>
+            </div>
+            <!-- #endregion -->
+        </div>
+    </div>
+    <!-- #endregion -->
+
+    <!-- #region Footer-->
+    <footer class="mt-auto text-white bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-6">
+                    <div class="row">
+                        <!--Sozial Medis Icons (Insta,GitHub,...)-->
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col"><p class="text-center"><strong>Copyrigth 2020 Sebastian Nadler & Maximilian Kranabetter</strong> </p></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <blockquote class="blockquote text-center">
+                        <p><small>Google Play und das Google Play-Logo sind Marken von Google LLC.</small></p>
+                        <p><small>App Store und das App Store-Logo sind Marken von Apple Inc.</small></p>
+                    </blockquote>
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
     <!-- #endregion -->
 
     <!-- Optional JavaScript -->
