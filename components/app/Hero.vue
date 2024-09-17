@@ -1,0 +1,44 @@
+<script setup>
+const props = defineProps(['googel_url', 'apple_url', 'image_url'])
+</script>
+
+<template>
+    <main class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-8">
+      <div class="p-24 md:order-1 hidden md:block">
+        <img
+          class="rounded-full transition-transform transform hover:scale-125"
+          :src=props.image_url
+          alt="Game Logo"
+          loading="eager"
+          format="avif"
+          width="512"
+          height="512"
+        />
+      </div>
+  
+      <div>
+        <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight">
+            <slot name="title">Title</slot>
+        </h1>
+        <p class="text-lg mt-4 text-slate-600 max-w-xl">
+            <slot name="desc">Some description goes here</slot>
+        </p>
+        <div class="mt-6 flex flex-col sm:flex-row gap-3">
+          <LandingLink
+            :href=props.googel_url
+            target="_blank"
+            rel="noopener"
+            >Play Store</LandingLink
+          >
+          <LandingLink
+            size="lg"
+            styleName="outline"
+            rel="noopener"
+            :href=props.apple_url
+            target="_blank"
+            >App Store</LandingLink
+          >
+        </div>
+      </div>
+    </main>
+  </template>

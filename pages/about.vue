@@ -1,16 +1,13 @@
 <script setup>
-definePageMeta({
-  layout: "landing",
-});
 
-const TeamImg1 = "https://source.unsplash.com/IF9TK5Uy-KI";
-const TeamImg2 = "https://source.unsplash.com/iEEBWgY_6lA";
+const TeamImg1 = "https://unsplash.com/photos/RxHhxWnXmNs/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTh8fGNvd3xlbnwwfHx8fDE3MjY1MjEzNzN8MA&force=true&w=640";
+const TeamImg2 = "https://unsplash.com/photos/EAJ1L4ZjrB4/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzI2NjAzNDIyfA&force=true&w=640";
 const TeamImg3 = "https://source.unsplash.com/ZHvM3XIOHoE";
 
 const team = [
   {
-    name: "Janette Lynch",
-    title: "Senior Director",
+    name: "Sebastian",
+    title: "Entwickler",
     avatar: {
       src: TeamImg1,
       width: 480,
@@ -18,19 +15,10 @@ const team = [
     },
   },
   {
-    name: "Marcell Ziemann",
-    title: "Principal Strategist",
+    name: "Max",
+    title: "Entwickler",
     avatar: {
       src: TeamImg2,
-      width: 580,
-      height: 580,
-    },
-  },
-  {
-    name: "Robert Palmer",
-    title: "Marketing Engineer",
-    avatar: {
-      src: TeamImg3,
       width: 580,
       height: 580,
     },
@@ -41,21 +29,20 @@ const team = [
 <template>
   <LandingContainer>
     <LandingSectionhead>
-      <template v-slot:title>About</template>
-      <template v-slot:desc>We are a small passionate team.</template>
+      <template v-slot:title>Über uns</template>
+      <template v-slot:desc>Wir sind ein kleines Team mit großer Leidenschaft.</template>
     </LandingSectionhead>
 
     <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
       <h2 class="font-bold text-3xl text-gray-800">
-        Empowering the world with Nuxt.
+        Mit Lern Apps die Welt stärken.
       </h2>
       <p class="text-lg leading-relaxed text-slate-500">
-        We're a multi-cultural team from around the world! We come from diverse
-        backgrounds, bringing different personalities, experiences and skills to
-        the job. This is what makes our team so special.
+        Wir sind ein kleines Team von leidenschaftlichen Entwicklern! Wir sind begeistert, unsere bayerische Tradition durch 
+        Apps an alle weiterzugeben. So leisten wir unseren Beitrag zur Weitergabe bayerischen Kulturguts.
       </p>
     </div>
-    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
+    <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-12">
       <div v-for="item of team" class="group">
         <div class="w-full aspect-square">
           <img

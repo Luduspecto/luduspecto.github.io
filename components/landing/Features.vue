@@ -42,11 +42,10 @@ const features = [
 <template>
   <div class="mt-16 md:mt-0">
     <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-      Everything you need to start a website
+      Alles was du brauchst zum lernen
     </h2>
     <p class="text-lg mt-4 text-slate-600">
-      Nuxt comes batteries included. It takes the best parts of state-of-the-art
-      tools and adds its own innovations.
+      Unsere Lern Apps enthalten leicht zu verstehende Erklärungen zu den wichtigsten Elementen der Spiele und darüber hinaus.
     </p>
   </div>
 

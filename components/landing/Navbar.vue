@@ -1,20 +1,20 @@
 <script setup>
 const menuitems = [
   {
-    title: "Features",
-    path: "#",
+    title: "Skat",
+    path: "/skat",
   },
   {
-    title: "Pricing",
-    path: "/pricing",
+    title: "Schafkopf",
+    path: "/schafkopf",
   },
   {
-    title: "About",
+    title: "Über uns",
     path: "/about",
   },
   {
-    title: "Contact",
-    path: "/contact",
+    title: "Kontakt",
+    path: "/kontakt",
   },
 ];
 
@@ -23,9 +23,12 @@ const open = ref(false);
 
 <template>
   <LandingContainer>
-    <header class="flex flex-col lg:flex-row justify-between items-center my-5">
+    <header class="sticky flex flex-col lg:flex-row justify-between items-center my-5">
       <div class="flex w-full lg:w-auto items-center justify-between">
-        <Logo />
+        <NuxtLink to="/" class="text-lg">
+          <span class="font-bold text-slate-800">Ludus</span>
+          <span class="text-slate-500">Pecto</span>
+        </NuxtLink>
         <div class="block lg:hidden">
           <button @click="open = !open" class="text-gray-800">
             <svg
@@ -65,16 +68,22 @@ const open = ref(false);
           </li>
         </ul>
         <div class="lg:hidden flex items-center mt-3 gap-4">
-          <LandingLink href="#" styleName="muted" block size="md"
-            >Log in</LandingLink
-          >
-          <LandingLink href="#" size="md" block>Sign up</LandingLink>
+          <a href="https://www.github.com/luduspecto" >
+            <Icon class="text-gray-600 hover:text-gray-900 w-6 h-6" name="uil:github" />
+          </a>
+          <a href="https://www.instagram.com/schafkopflernen/" >
+            <Icon class="text-gray-600 hover:text-gray-900 w-6 h-6" name="uil:instagram" />
+          </a>
         </div>
       </nav>
       <div>
         <div class="hidden lg:flex items-center gap-4">
-          <a href="#">Log in</a>
-          <LandingLink href="#" size="md">Sign up</LandingLink>
+          <a href="https://www.github.com/luduspecto" >
+            <Icon class="text-gray-600 hover:text-gray-900 w-6 h-6" name="uil:github" />
+          </a>
+          <a href="https://www.instagram.com/schafkopflernen/" >
+            <Icon class="text-gray-600 hover:text-gray-900 w-6 h-6" name="uil:instagram" />
+          </a>
         </div>
       </div>
     </header>
