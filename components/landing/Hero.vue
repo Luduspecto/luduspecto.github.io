@@ -1,9 +1,9 @@
 <template>
-  <main class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-8">
+  <main class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-8 mt-16 mb-16">
     <div class="p-24 md:order-1 hidden md:block">
       <img
         class="rounded-full transition-transform transform hover:scale-125"
-        src="~/assets/img/hero.jpg"
+        src="~/assets/img/undraw_playing_cards_cywn.png"
         alt="Starship starts the engine"
         loading="eager"
         format="avif"
