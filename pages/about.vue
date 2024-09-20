@@ -1,26 +1,25 @@
 <script setup>
 
-const TeamImg1 = "https://unsplash.com/photos/RxHhxWnXmNs/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTh8fGNvd3xlbnwwfHx8fDE3MjY1MjEzNzN8MA&force=true&w=640";
-const TeamImg2 = "https://unsplash.com/photos/EAJ1L4ZjrB4/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzI2NjAzNDIyfA&force=true&w=640";
-const TeamImg3 = "https://source.unsplash.com/ZHvM3XIOHoE";
+const TeamImg1 = "undraw_code_thinking_re_gka2.svg";
+const TeamImg2 = "undraw_version_control_re_mg66.svg";
 
 const team = [
   {
     name: "Sebastian",
-    title: "Entwickler",
+    title: "Co-Founder & Entwickler",
     avatar: {
       src: TeamImg1,
-      width: 480,
-      height: 560,
+      width: 580,
+      height: 1080,
     },
   },
   {
     name: "Max",
-    title: "Entwickler",
+    title: "Co-Founder & Entwickler",
     avatar: {
       src: TeamImg2,
       width: 580,
-      height: 580,
+      height: 1080,
     },
   },
 ];
@@ -33,7 +32,7 @@ const team = [
       <template v-slot:desc>Wir sind ein kleines Team mit großer Leidenschaft.</template>
     </LandingSectionhead>
 
-    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
+    <div class="flex flex-col gap-6 mx-auto max-w-4xl mt-8 mb-8">
       <h2 class="font-bold text-3xl text-gray-800">
         Mit Lern Apps die Welt stärken.
       </h2>
@@ -51,7 +50,7 @@ const team = [
             :height="item.avatar.height"
             format="avif"
             alt="Team"
-            class="w-full h-full object-cover rounded transition group-hover:-translate-y-1 group-hover:shadow-xl"
+            class="w-full h-full object-fill rounded transition group-hover:-translate-y-1 group-hover:shadow-xl"
           />
         </div>
 
