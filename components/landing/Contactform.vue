@@ -28,11 +28,13 @@ onMounted(() => {
         let json = await response.json();
         if (response.status == 200) {
           result.classList.add("text-green-500");
-          result.innerHTML = json.message;
+          console.log(json.message);
+          result.innerHTML = "Danke für ihr Feedback!";
         } else {
           console.log(response);
           result.classList.add("text-red-500");
-          result.innerHTML = json.message;
+          console.log(json.message);
+          result.innerHTML = "Ups! Das hat leider nicht geklappt";
         }
       })
       .catch((error) => {
@@ -51,8 +53,6 @@ onMounted(() => {
 </script>
 
 <template>
-  <!-- To make this contact form work, create your free access key from https://web3forms.com/
-     Then you will get all form submissions in your email inbox. -->
   <form
     action="https://api.web3forms.com/submit"
     method="POST"
@@ -60,8 +60,7 @@ onMounted(() => {
     class="needs-validation"
     novalidate
   >
-    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
-    <!-- Create your free access key from https://web3forms.com/ -->
+    <input type="hidden" name="access_key" value="2e481454-8352-4777-8858-6614cc567126" />
     <input
       type="checkbox"
       class="hidden"
