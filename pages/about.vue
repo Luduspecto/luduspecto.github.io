@@ -1,7 +1,7 @@
 <script setup>
 
-const TeamImg1 = "undraw_code_thinking_re_gka2.svg";
-const TeamImg2 = "undraw_version_control_re_mg66.svg";
+const TeamImg1 = "img/undraw_code_thinking_re_gka2.svg";
+const TeamImg2 = "img/undraw_version_control_re_mg66.svg";
 
 const team = [
   {
@@ -32,13 +32,12 @@ const team = [
       <template v-slot:desc>Wir sind ein kleines Team mit großer Leidenschaft.</template>
     </LandingSectionhead>
 
-    <div class="flex flex-col gap-6 mx-auto max-w-4xl mt-8 mb-8">
+    <div class="flex flex-col gap-6 mx-auto max-w-4xl mt-8 mb-8 pt-16">
       <h2 class="font-bold text-3xl text-gray-800">
         Mit Lern Apps die Welt stärken.
       </h2>
       <p class="text-lg leading-relaxed text-slate-500">
-        Wir sind ein kleines Team von leidenschaftlichen Entwicklern! Wir sind begeistert, unsere bayerische Tradition durch 
-        Apps an alle weiterzugeben. So leisten wir unseren Beitrag zur Weitergabe bayerischen Kulturguts.
+        Wir sind ein kleines, leidenschaftliches Entwicklerteam, spezialisiert auf die Entwicklung von Kartenspiel-Lernapps. Unsere Mission ist es, das Lernen durch spielerische Ansätze zu bereichern. Mit kreativen Ideen, klarem Design und interaktiven Kartenspielen kombinieren wir Wissen und Spaß. Unser Fokus liegt auf der Entwicklung benutzerfreundlicher Apps, die Lernen zu einem unterhaltsamen Erlebnis machen - ideal für alle, die sich gerne spielerisch weiterbilden möchten.
       </p>
     </div>
     <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-12">
