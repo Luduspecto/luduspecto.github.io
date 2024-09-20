@@ -1,40 +1,40 @@
 <script setup>
 const features = [
   {
-    title: "Bring Your Own Framework",
+    title: "100 % Ohne Werbung",
     description:
-      "Build your site using Vue, web components, or just plain ol' HTML + JavaScript.",
+      "Lerne ohne durch Werbung unterbrochen zu werden. So macht lernen Spaß",
+    icon: "bx:bxs-gift",
+  },
+  {
+    title: "Funktioniert auch Offline",
+    description:
+      "Alle Tutorials und Leistungsstarke Gegner immer dabei auch ohne eine Internet Verbindung",
+    icon: "bx:bxs-layer",
+  },
+  {
+    title: "Ohne Ingame-Käufe",
+    description:
+      "Einmal zahlen und keine weiteren Micro-Transaktion für dein vollstendinges Kartenspiel Erlebnis",
     icon: "bx:bxs-briefcase",
   },
   {
-    title: "100% Static HTML, No JS",
+    title: "Realistische Computergegner",
     description:
-      "Nuxt renders your entire page to static HTML, removing all JavaScript from your final build by default.",
-    icon: "bx:bxs-window-alt",
+      "Wir wissen wie nervig es ist, wenn es sich anfühlt, als würden die Computer nur zufällige Karten legen. Aus diesem Grund waren uns realistische Gegner in unserem Spiel von Tag 1 an die höchste Priorität.",
+    icon: "bx:bxs-brain",
   },
   {
-    title: "On-Demand Components",
+    title: "Lasse dir vom Assistenten helfen",
     description:
-      "Need some JS? Nuxt can automatically hydrate interactive components when they become visible on the page.  ",
-    icon: "bx:bxs-data",
-  },
-  {
-    title: "Broad Integration",
-    description:
-      "Nuxt supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.",
+      "Falls du dir jemals nicht ganz sicher sein solltest, welche Karte du legen solltest, welche Trümpfe schon gelegt wurden, oder mit dem du spielst, kann dir der neue Assistent live im Spiel helfen.",
     icon: "bx:bxs-bot",
   },
   {
-    title: "SEO Enabled",
+    title: "Messe dich mit deinen Freunden",
     description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!",
-    icon: "bx:bxs-file-find",
-  },
-  {
-    title: "Community",
-    description:
-      "Nuxt is an open source project powered by hundreds of contributors making thousands of individual contributions.",
-    icon: "bx:bxs-user",
+      "Achievements und Bestenlisten bieten einen spannenden Vergleich mit anderen Spielern. Untersuche mit ausführlichen Statistiken dein Spielverhalten und deinen Fortschritt.",
+    icon: "bx:bxs-party",
   },
 ];
 </script>
