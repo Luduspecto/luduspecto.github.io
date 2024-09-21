@@ -47,7 +47,7 @@
             </p>
             <ul class="list-disc list-inside">
                 <li class="pl-4 pb-2">Google Play: <a
-                        href="www.google.com/intl/de/policies/privacy/">www.google.com/intl/de/policies/privacy/</a>
+                        href="https://www.google.com/intl/de/policies/privacy/">www.google.com/intl/de/policies/privacy/</a>
                 </li>
                 <li class="pl-4 pb-2">Unity: <a
                         href="https://unity3d.com/legal/privacy-policy">https://unity3d.com/legal/privacy-policy</a>
