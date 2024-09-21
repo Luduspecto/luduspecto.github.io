@@ -1,7 +1,7 @@
 <script setup>
 
-const TeamImg1 = "img/undraw_code_thinking_re_gka2.svg";
-const TeamImg2 = "img/undraw_version_control_re_mg66.svg";
+const TeamImg1 = "/img/undraw_code_thinking_re_gka2.svg";
+const TeamImg2 = "/img/undraw_version_control_re_mg66.svg";
 
 const team = [
   {
