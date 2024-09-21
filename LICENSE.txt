@@ -1,3 +1,7 @@
+The contents of the folders assets/ and public/ are not part of the following license!
+All images (.png or .svg) from undraw (starting with undraw) are licensed under https://undraw.co/license .
+All other files in those folders are under property license.
+                    
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
