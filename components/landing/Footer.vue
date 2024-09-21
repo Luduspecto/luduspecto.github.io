@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-white order-last container mt-20 max-w-screen-xl mx-auto px-5">
-    <div class="flex justify-between">
+    <div class="md:flex justify-between">
       <div class="lg:w-auto w-1/6">
         <NuxtLink to="/" class="text-lg">
           <span class="font-bold text-slate-800">Ludus</span>
@@ -10,27 +10,27 @@
       <div class="lg:w-auto w-auto">
         <div class="mb-1 font-semibold">Apps</div>
         <div class="text-sm">
-          <NuxtLink to="/skat" class="py-1.5 block">Skat</NuxtLink>
-          <NuxtLink to="/schafkopf" class="py-1.5 block">Schafkopf</NuxtLink>
+          <NuxtLink to="/skat" class="md:py-1.5 block">Skat</NuxtLink>
+          <NuxtLink to="/schafkopf" class="md:py-1.5 block">Schafkopf</NuxtLink>
         </div>
       </div>
       <div class="lg:w-auto w-auto">
         <div class="mb-1 font-semibold">Website</div>
         <div class="text-sm">
-          <NuxtLink to="/datenschutz" class="py-1.5 block">Datenschutz</NuxtLink>
-          <NuxtLink to="/impressum" class="py-1.5 block">Impressum</NuxtLink>
+          <NuxtLink to="/datenschutz" class="md:py-1.5 block">Datenschutz</NuxtLink>
+          <NuxtLink to="/impressum" class="md:py-1.5 block">Impressum</NuxtLink>
         </div>
       </div>
       <div class="lg:w-auto w-auto">
         <div class="mb-1 font-semibold">App Datenschutz</div>
         <div class="text-sm">
-          <NuxtLink to="/app-datenschutz/skat" class="py-1.5 block">Datenschutzerklärung Skat</NuxtLink>
-          <NuxtLink to="/app-datenschutz/schafkopf" class="py-1.5 block">Datenschutzerklärung Schafkopf</NuxtLink>
+          <NuxtLink to="/app-datenschutz/skat" class="md:py-1.5 block">Datenschutzerklärung Skat</NuxtLink>
+          <NuxtLink to="/app-datenschutz/schafkopf" class="md:py-1.5 block">Datenschutzerklärung Schafkopf</NuxtLink>
         </div>
       </div>
       <div class="lg:w-auto w-1/3">
         <div class="mb-1 font-semibold">Besuch uns auch hier:</div>
-        <div class="hidden lg:flex items-center gap-4">
+        <div class="flex items-center gap-4">
           <a href="https://play.google.com/store/apps/developer?id=Ludus+Pecto+Games" >
             <Icon class="text-gray-600 hover:text-gray-900 w-6 h-6" name="mage:playstore" />
           </a>

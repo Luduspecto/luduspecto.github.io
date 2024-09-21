@@ -1,6 +1,6 @@
 <template>
-  <main class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-8 mt-16 mb-16">
-    <div class="p-24 md:order-1 hidden md:block">
+  <main class="grid lg:grid-cols-2 place-items-center pb-8 md:pt-8 md:mt-16 mb-16">
+    <div class="p-24 md:order-1 relative md:block">
       <img
         class="rounded-full transition-transform transform scale-125 hover:scale-100"
         src="~/assets/img/undraw_playing_cards_cywn.png"

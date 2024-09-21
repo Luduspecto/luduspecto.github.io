@@ -3,8 +3,8 @@ const props = defineProps(['googel_url', 'apple_url', 'image_url'])
 </script>
 
 <template>
-    <main class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-8">
-      <div class="p-24 md:order-1 hidden md:block">
+    <main class="grid lg:grid-cols-2 place-items-center pb-8 md:pt-8">
+      <div class="p-24 md:order-1 relative md:block">
         <img
           class="rounded-full transition-transform transform hover:scale-125"
           :src=props.image_url
