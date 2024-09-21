@@ -1,4 +1,4 @@
-The contents of the folders assets/ and public/ are not part of the following license!
+The contents of the folders assets/ and public/ are not part of the following license, except assets/css/main.css!
 All images (.png or .svg) from undraw (starting with undraw) are licensed under https://undraw.co/license .
 All other files in those folders are under property license.
                     
