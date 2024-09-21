@@ -84,9 +84,11 @@
             <h2 class="text-2xl pb-1 pt-2">Bildernachweis</h2>
             <p>Die Bilder, Fotos und Grafiken auf dieser Webseite sind urheberrechtlich geschützt.</p>
             <p>Die Bilderrechte liegen bei den folgenden Fotografen und Unternehmen:</p>
-            <ul class="text-base">
+            <ul class="text-base list-disc list-inside">
                 <li>Google Play und das Google Play-Logo sind Marken von Google LLC.</li>
                 <li>App Store und das App Store-Logo sind Marken von Apple Inc.</li>
+                <li>GitHub und das GitHub-Logo sind Marken von GitHub Inc.</li>
+                <li>Instagram und das Instagram-Logo sind Marken von Meta Inc.</li>
             </ul>
         </div>
     </LandingContainer>
