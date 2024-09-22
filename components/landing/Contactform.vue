@@ -29,7 +29,7 @@ onMounted(() => {
         if (response.status == 200) {
           result.classList.add("text-green-500");
           console.log(json.message);
-          result.innerHTML = "Danke für ihr Feedback!";
+          result.innerHTML = "Danke für Ihr Feedback!";
         } else {
           console.log(response);
           result.classList.add("text-red-500");
@@ -76,7 +76,7 @@ onMounted(() => {
         name="name"
       />
       <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-        Bitte geben sie ihren Namen an
+        Bitte geben sie Ihren Namen an
       </div>
     </div>
     <div class="mb-5">
@@ -90,10 +90,10 @@ onMounted(() => {
         class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
       />
       <div class="empty-feedback text-red-400 text-sm mt-1">
-        Bitte geben sie ihre Email Adresse an.
+        Bitte geben Sie ihre Email Adresse an.
       </div>
       <div class="invalid-feedback text-red-400 text-sm mt-1">
-        Bitte geben sie eine richtige Email Adresse ein.
+        Bitte geben Sie eine richtige Email Adresse ein.
       </div>
     </div>
     <div class="mb-3">
@@ -104,7 +104,7 @@ onMounted(() => {
         class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none h-36 focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
       ></textarea>
       <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-        Bitte geben sie eine Nachricht ein.
+        Bitte geben Sie eine Nachricht ein.
       </div>
     </div>
     <LandingButton type="submit" size="lg" block>Nachricht senden</LandingButton>
