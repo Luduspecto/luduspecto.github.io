@@ -1,9 +1,8 @@
 <template>
   <div
-    class="bg-black px-20 py-20 mt-20 mx-auto max-w-5xl rounded-lg flex flex-col items-center text-center"
-  >
-    <h2 class="text-white text-3xl md:text-6xl">Starte jetzt dein Lern Abenteuer</h2>
-    <p class="text-slate-500 mt-4 text-lg md:text-xl">
+    class="bg-secondary px-20 py-20 mt-20 mx-auto max-w-5xl rounded-lg flex flex-col items-center text-center">
+    <h2 class="text-primary text-3xl md:text-6xl font-semibold">Starte jetzt dein Lern Abenteuer</h2>
+    <p class="text-tertiary mt-4 text-lg md:text-xl">
       Finde unsere Kartenspiel Apps in deinem App Store.
     </p>
     <div class="flex mt-5 gap-4">

@@ -26,11 +26,11 @@ const open = ref(false);
     <header class="sticky flex flex-col lg:flex-row justify-between items-center my-5">
       <div class="flex w-full lg:w-auto items-center justify-between">
         <NuxtLink to="/" class="text-lg">
-          <span class="font-bold text-slate-800">Ludus</span>
-          <span class="text-slate-500">Pecto</span>
+          <span class="font-bold text-secondary">Ludus</span>
+          <span class="text-secondary">Pecto</span>
         </NuxtLink>
         <div class="block lg:hidden">
-          <button @click="open = !open" class="text-gray-800">
+          <button @click="open = !open" class="text-secondary">
             <svg
               fill="currentColor"
               class="w-4 h-4"
@@ -61,7 +61,7 @@ const open = ref(false);
           <li v-for="item of menuitems">
             <a
               :href="item.path"
-              class="flex lg:px-3 py-2 text-gray-600 hover:text-gray-900"
+              class="flex lg:px-3 py-2 text-secondary hover:text-secondary"
             >
               {{ item.title }}
             </a>
@@ -69,20 +69,20 @@ const open = ref(false);
         </ul>
         <div class="lg:hidden flex items-center mt-3 gap-4">
           <a href="https://www.github.com/luduspecto" >
-            <Icon class="text-gray-600 hover:text-gray-900 w-6 h-6" name="uil:github" />
+            <Icon class="text-secondary hover:text-secondary w-6 h-6" name="uil:github" />
           </a>
           <a href="https://www.instagram.com/schafkopflernen/" >
-            <Icon class="text-gray-600 hover:text-gray-900 w-6 h-6" name="uil:instagram" />
+            <Icon class="text-secondary hover:text-secondary w-6 h-6" name="uil:instagram" />
           </a>
         </div>
       </nav>
       <div>
         <div class="hidden lg:flex items-center gap-4">
           <a href="https://www.github.com/luduspecto" >
-            <Icon class="text-gray-600 hover:text-gray-900 w-6 h-6" name="uil:github" />
+            <Icon class="text-secondary hover:text-secondary w-6 h-6" name="uil:github" />
           </a>
           <a href="https://www.instagram.com/schafkopflernen/" >
-            <Icon class="text-gray-600 hover:text-gray-900 w-6 h-6" name="uil:instagram" />
+            <Icon class="text-secondary hover:text-secondary w-6 h-6" name="uil:instagram" />
           </a>
         </div>
       </div>

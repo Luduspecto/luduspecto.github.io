@@ -1,26 +1,30 @@
 <template>
     <LandingContainer>
         <LandingSectionhead>
-            <template v-slot:title>Schafkopf App Datenschutz</template>
-            <template v-slot:desc>Wir nehmen den schutz von Daten anderer ernst.</template>
+            <template v-slot:title>
+                <h1 class="text-secondary">Schafkopf App Datenschutz</h1>
+            </template>
+            <template v-slot:desc>
+                <p class="text-secondary font-light">Wir nehmen den Schutz Ihrer Daten ernst.</p>
+            </template>
         </LandingSectionhead>
 
-        <div class="container mt-16 font-light">
-            <h1 class="text-3xl pb-2 pt-1 font-normal">Datenschutzerklärung für Schafkopf Offline Lernen App</h1>
+        <div class="relative bg-secondary p-8 rounded-xl shadow-lg border-4 border-primary container mb-8 mt-16 font-light text-tertiary">
+            <h1 class="text-3xl pb-2 pt-1 text-primary font-semibold">Datenschutzerklärung für die Schafkopf Offline Lernen App</h1>
             <p class="text-base pb-1">
                 Um Funktionen unserer Apps laufend verbessern zu können erheben wir an manchen Stellen Daten. Es ist uns
                 wichtig, möglichst wenig Ihrer Daten zu sammeln. In den folgenden Fällen werden von uns jedoch Daten
                 erhoben:
             </p>
             <ul class="list-disc list-inside">
-                <li class="pl-4 pb-2">Spieldaten <p class="text-base pb-1"> Wir speichern konkret den Verlauf Ihrer Spiele in der App. Das können Sie auch! Nach
+                <li class="pl-4 pb-2"><strong>Spieldaten</strong><p class="text-base pb-1"> Wir speichern konkret den Verlauf Ihrer Spiele in der App. Das können Sie auch! Nach
                         jedem
                         Spiel haben Sie die Möglichkeit, ihr Spiel zu speichern. Mit diesen anonymen Daten, möchten wir
                         die
                         Lernerfahrung in der App noch besser machen!
                     </p>
                 </li >
-                <li class="pl-4 pb-2">Beim Senden von Fehlerberichten<p class="text-base pb-1">Unsere App bietet die Option, einen Fehlerbericht zu versenden.
+                <li class="pl-4 pb-2"><strong>Beim Senden von Fehlerberichten</strong><p class="text-base pb-1">Unsere App bietet die Option, einen Fehlerbericht zu versenden.
                         Diese
                         Funktion ist vollkommen optional und beeinflusst in keinster Weise das Spielerlebnis. Falls Sie
                         sich
@@ -30,7 +34,7 @@
                         personenbezogenen Daten.
                     </p>
                 </li>
-                <li class="pl-4 pb-2">Beim automatischen Senden von Fehlerberichten<p class="text-base pb-1">Sollten während der Nutzung unserer App kritische
+                <li class="pl-4 pb-2"><strong>Beim automatischen Senden von Fehlerberichten</strong><p class="text-base pb-1">Sollten während der Nutzung unserer App kritische
                         Fehler
                         auftreten, versenden wir automatisch einen Fehlerbericht. Dieser erfordert keine aktive Handlung
                         des

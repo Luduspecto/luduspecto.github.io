@@ -1,12 +1,16 @@
 <template>
     <LandingContainer>
         <LandingSectionhead>
-            <template v-slot:title>Datenschutz</template>
-            <template v-slot:desc>Wir nehmen den Schutz von Daten anderer ernst.</template>
+            <template v-slot:title>
+                <h1 class="text-secondary">Datenschutz</h1>
+            </template>
+            <template v-slot:desc>
+                <p class="text-secondary font-light">Wir nehmen den Schutz Ihrer Daten ernst.</p>
+            </template>
         </LandingSectionhead>
-        <div class="container mb-8 mt-16 font-light">
-            <h1 class="text-4xl font-bold">Datenschutzerklärung</h1>
-            <h2 class="text-2xl pb-2 pt-3 ">Inhaltsverzeichnis</h2>
+        <div class="relative bg-secondary p-8 rounded-xl shadow-lg border-4 border-primary container mb-8 mt-16 font-light text-tertiary">
+            <h1 class="text-4xl font-bold text-primary">Datenschutzerklärung</h1>
+            <h2 class="text-2xl pb-2 pt-3 text-primary">Inhaltsverzeichnis</h2>
             <ul class="list-disc list-inside">
                 <li>
                     <a href="#einleitung-ueberblick">Einleitung und Überblick</a>
@@ -45,7 +49,7 @@
                     <a href="#schlusswort">Schlusswort</a>
                 </li>
             </ul>
-            <h2 class="text-2xl pb-2 pt-3" id="einleitung-ueberblick">Einleitung und Überblick</h2>
+            <h2 class="text-2xl pb-2 pt-3 text-primary" id="einleitung-ueberblick">Einleitung und Überblick</h2>
             <p class="text-normal pb-1">Wir haben diese Datenschutzerklärung (Fassung 21.09.2024-312874306) verfasst, um
                 Ihnen
                 gemäß der Vorgaben der <a
@@ -81,7 +85,7 @@
                 Drittseiten
                 anzusehen. Unsere Kontaktdaten finden Sie selbstverständlich auch im Impressum.
             </p>
-            <h2 class="text-2xl pb-2 pt-3" id="anwendungsbereich">Anwendungsbereich</h2>
+            <h2 class="text-2xl pb-2 pt-3 text-primary" id="anwendungsbereich">Anwendungsbereich</h2>
             <p class="text-normal pb-1">Diese Datenschutzerklärung gilt für alle von uns im Unternehmen verarbeiteten
                 personenbezogenen Daten und für alle personenbezogenen Daten, die von uns beauftragte Firmen
                 (Auftragsverarbeiter) verarbeiten. Mit personenbezogenen Daten meinen wir Informationen im Sinne des
@@ -102,7 +106,7 @@
                 Kanäle
                 mit Ihnen in Rechtsbeziehungen eintreten, werden wir Sie gegebenenfalls gesondert informieren.
             </p>
-            <h2 class="text-2xl pb-2 pt-3" id="rechtsgrundlagen">Rechtsgrundlagen</h2>
+            <h2 class="text-2xl pb-2 pt-3 text-primary" id="rechtsgrundlagen">Rechtsgrundlagen</h2>
             <p class="text-normal pb-1">In der folgenden Datenschutzerklärung geben wir Ihnen transparente Informationen
                 zu den
                 rechtlichen Grundsätzen und Vorschriften, also den Rechtsgrundlagen der Datenschutz-Grundverordnung, die
@@ -164,7 +168,7 @@
             <p class="text-normal pb-1">Sofern weitere regionale oder nationale Gesetze zur Anwendung kommen,
                 informieren wir
                 Sie in den folgenden Abschnitten darüber.</p>
-            <h2 class="text-2xl pb-2 pt-3" id="kontaktdaten-verantwortliche">Kontaktdaten des Verantwortlichen</h2>
+            <h2 class="text-2xl pb-2 pt-3 text-primary" id="kontaktdaten-verantwortliche">Kontaktdaten des Verantwortlichen</h2>
             <p class="text-normal pb-1">Sollten Sie Fragen zum Datenschutz oder zur Verarbeitung personenbezogener Daten
                 haben,
                 finden Sie nachfolgend die Kontaktdaten der verantwortlichen Person bzw. Stelle:<br />
@@ -179,7 +183,7 @@
                 <br />
                 Impressum: <a href="https://luduspecto.github.io/impressum/">https://luduspecto.github.io/impressum/</a>
             </p>
-            <h2 class="text-2xl pb-2 pt-3" id="speicherdauer">Speicherdauer</h2>
+            <h2 class="text-2xl pb-2 pt-3 text-primary" id="speicherdauer">Speicherdauer</h2>
             <p class="text-normal pb-1">Dass wir personenbezogene Daten nur so lange speichern, wie es für die
                 Bereitstellung
                 unserer Dienstleistungen und Produkte unbedingt notwendig ist, gilt als generelles Kriterium bei uns.
@@ -195,7 +199,7 @@
             <p class="text-normal pb-1">Über die konkrete Dauer der jeweiligen Datenverarbeitung informieren wir Sie
                 weiter
                 unten, sofern wir weitere Informationen dazu haben.</p>
-            <h2 class="text-2xl pb-2 pt-3" id="rechte-dsgvo">Rechte laut Datenschutz-Grundverordnung</h2>
+            <h2 class="text-2xl pb-2 pt-3 text-primary" id="rechte-dsgvo">Rechte laut Datenschutz-Grundverordnung</h2>
             <p class="text-normal pb-1">Gemäß Artikel 13, 14 DSGVO informieren wir Sie über die folgenden Rechte, die
                 Ihnen
                 zustehen, damit es zu einer fairen und transparenten Verarbeitung von Daten kommt:</p>
@@ -281,7 +285,7 @@
                     rel="noopener">Bundesbeauftragte für den Datenschutz und die Informationsfreiheit (BfDI)</a> wenden.
                 Für
                 unser Unternehmen ist die folgende lokale Datenschutzbehörde zuständig:</p>
-            <h2 class="text-2xl pb-2 pt-3" id="bayern-datenschutzbehoerde">Bayern Datenschutzbehörde</h2>
+            <h2 class="text-2xl pb-2 pt-3 text-primary" id="bayern-datenschutzbehoerde">Bayern Datenschutzbehörde</h2>
             <p class="text-normal pb-1">
                 <strong>Landesbeauftragter für Datenschutz:</strong> Prof. Dr. Thomas Petri<br />
                 <strong>Adresse:</strong> Wagmüllerstr. 18, 80538 München<br />
@@ -293,7 +297,7 @@
                 <a href="https://www.datenschutz-bayern.de/?tid=312874306" target="_blank"
                     rel="noopener">https://www.datenschutz-bayern.de/</a>
             </p>
-            <h2 class="text-2xl pb-2 pt-3" id="kommunikation">Kommunikation</h2>
+            <h2 class="text-2xl pb-2 pt-3 text-primary" id="kommunikation">Kommunikation</h2>
             <table border="1" cellpadding="15">
                 <tbody>
                     <tr>
@@ -372,7 +376,7 @@
                     effizient
                     betreiben zu können.</li>
             </ul>
-            <h2 class="text-2xl pb-2 pt-3" id="cookies">Cookies</h2>
+            <h2 class="text-2xl pb-2 pt-3 text-primary" id="cookies">Cookies</h2>
             <table border="1" cellpadding="15">
                 <tbody>
                     <tr>
@@ -592,7 +596,7 @@
             <p class="text-normal pb-1">In den folgenden Abschnitten werden Sie genauer über den Einsatz von Cookies
                 informiert,
                 sofern eingesetzte Software Cookies verwendet.</p>
-            <h2 class="text-2xl pb-2 pt-3" id="webhosting-einleitung">Webhosting Einleitung</h2>
+            <h2 class="text-2xl pb-2 pt-3 text-primary" id="webhosting-einleitung">Webhosting Einleitung</h2>
             <table border="1" cellpadding="15">
                 <tbody>
                     <tr>
@@ -696,7 +700,7 @@
             <p class="text-normal pb-1">Zwischen uns und dem Hosting-Provider besteht in der Regel ein Vertrag über die
                 Auftragsverarbeitung gemäß Art. 28 f. DSGVO, der die Einhaltung von Datenschutz gewährleistet und
                 Datensicherheit garantiert.</p>
-            <h2 class="text-xl pb-2 pt-3">GitHub Pages Datenschutzerklärung</h2>
+            <h2 class="text-xl pb-2 pt-3 text-primary">GitHub Pages Datenschutzerklärung</h2>
             <p class="text-normal pb-1">GitHub Inc.</p>
             <p class="text-normal pb-1">88 Colin P Kelly Jr St</p>
             <p class="text-normal pb-1">San Francisco, CA 94107</p>
@@ -728,7 +732,7 @@
                 unter: <a
                     href="https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-data-protection-addendum#attachment-1-the-standard-contractual-clauses-processors">https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-data-protection-addendum#attachment-1-the-standard-contractual-clauses-processors</a>
             </p>
-            <!--<h2 class="text-2xl pb-2 pt-3">Rechtliche Hinweise</h2>
+            <!--<h2 class="text-2xl pb-2 pt-3 text-primary">Rechtliche Hinweise</h2>
 <p class="text-normal pb-1">Grundsätzlich ist ein Auftragsverarbeitungsvertrag mit dem Hoster abzuschließen. Das bayerische Landesamt für Datenschutzaufsicht hat für das Hosting rein statischer Websites eine Ausnahme gemacht. Für den Fall, dass die Webseite der Selbstdarstellung dient, z.B. von Vereinen oder Kleinunternehmen, keine personenbezogenen Daten an den Betreiber fließen und kein Tracking stattfindet, liegt keine Auftragsverarbeitung vor. Weiter heißt es: „Die Tatsache, dass auch beim Hosting von statischen Webseiten zwangsläufig IP-Adressen, d.h. personenbezogene Daten, verarbeitet werden müssen, führt nicht zur Annahme einer Auftragsverarbeitung. Das wäre nicht sachgerecht. Die (kurzfristige) IP-Adressenspeicherung ist vielmehr noch der TK-Zugangsvermittlung des Website-Hosters nach dem TKG zuzurechnen und dient in erster Linie Sicherheitszwecken des Hosters.“ (<a href="https://www.lda.bayern.de/media/veroeffentlichungen/FAQ_Hosting_keine_Auftragsverarbeitung.pdf">https://www.lda.bayern.de/media/veroeffentlichungen/FAQ_Hosting_keine_Auftragsverarbeitung.pdf</a>) Wir gehen davon aus, dass diese Ausnahme auf GitHub Pages anzuwenden ist.</p>-->
             <!-- Falls Firebase mal genutzt wird, vorsicht wiederspruch mit obigem rechts Hinweis (kein Auftragsverarbeitungsvertrag mit Github pages) -->
             <!--<table border="1" cellpadding="15">
@@ -768,14 +772,14 @@
 <p class="text-normal pb-1">Zusätzlich zur Einwilligung besteht von unserer Seite ein berechtigtes Interesse daran, das Verhalten der Websitebesucher zu analysieren und so unser Angebot technisch und wirtschaftlich zu verbessern. Mit Hilfe von Web-Analytics erkennen wir Fehler der Website, können Attacken identifizieren und die Wirtschaftlichkeit verbessern. Die Rechtsgrundlage dafür ist <strong >Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen)</strong>. Wir setzen die Tools gleichwohl nur ein, soweit sie eine Einwilligung erteilt haben.</p>
 <p class="text-normal pb-1">Da bei Web-Analytics-Tools Cookies zum Einsatz kommen, empfehlen wir Ihnen auch das Lesen unserer allgemeinen Datenschutzerklärung zu Cookies. Um zu erfahren, welche Daten von Ihnen genau gespeichert und verarbeitet werden, sollten Sie die Datenschutzerklärungen der jeweiligen Tools durchlesen.</p>
 <p class="text-normal pb-1">Informationen zu speziellen Web-Analytics-Tools, erhalten Sie &#8211; sofern vorhanden &#8211; in den folgenden Abschnitten.</p>
-<h2 class="text-2xl pb-2 pt-3" id="firebase-datenschutzerklaerung" >Firebase Datenschutzerklärung</h2>
+<h2 class="text-2xl pb-2 pt-3 text-primary" id="firebase-datenschutzerklaerung" >Firebase Datenschutzerklärung</h2>
 <p class="text-normal pb-1">Wir verwenden auf unserer Website Firebase, ein Analyse- und Monitoring-Tool. Dienstanbieter ist das amerikanische Unternehmen Google Inc. Für den europäischen Raum ist das Unternehmen Google Ireland Limited (Gordon House, Barrow Street Dublin 4, Irland) für alle Google-Dienste verantwortlich.</p>
 <p class="text-normal pb-1">Google verarbeitet Daten von Ihnen u.a. auch in den USA. Google ist aktiver Teilnehmer des EU-US Data Privacy Frameworks, wodurch der korrekte und sichere Datentransfer personenbezogener Daten von EU-Bürgern in die USA geregelt wird. Mehr Informationen dazu finden Sie auf <a  href="https://commission.europa.eu/document/fa09cbad-dd7d-4684-ae60-be03fcb0fddf_en" target="_blank" rel="follow noopener"> https://commission.europa.eu/document/fa09cbad-dd7d-4684-ae60-be03fcb0fddf_en</a>.</p>
 <p class="text-normal pb-1">Zudem verwendet Google sogenannte Standardvertragsklauseln (= Art. 46. Abs. 2 und 3 DSGVO). Standardvertragsklauseln (Standard Contractual Clauses – SCC) sind von der EU-Kommission bereitgestellte Mustervorlagen und sollen sicherstellen, dass Ihre Daten auch dann den europäischen Datenschutzstandards entsprechen, wenn diese in Drittländer (wie beispielsweise in die USA) überliefert und dort gespeichert werden. Durch das EU-US Data Privacy Framework und durch die Standardvertragsklauseln verpflichtet sich Google, bei der Verarbeitung Ihrer relevanten Daten, das europäische Datenschutzniveau einzuhalten, selbst wenn die Daten in den USA gespeichert, verarbeitet und verwaltet werden. Diese Klauseln basieren auf einem Durchführungsbeschluss der EU-Kommission. Sie finden den Beschluss und die entsprechenden Standardvertragsklauseln u.a. hier: <a  href="https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj?locale=de" target="_blank" rel="follow noopener">https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj?locale=de</a>
 </p>
 <p class="text-normal pb-1">Die Google Ads Datenverarbeitungsbedingungen (Google Ads Data Processing Terms), welche auf die Standardvertragsklauseln verweisen, finden Sie unter <a  href="https://business.safety.google/intl/de/adsprocessorterms/" target="_blank" rel="follow noopener">https://business.safety.google/intl/de/adsprocessorterms/</a>.</p>
 <p class="text-normal pb-1">Mehr über die Daten, die durch die Verwendung von Firebase verarbeitet werden, erfahren Sie in der Privacy Policy auf <a  href="https://policies.google.com/privacy?hl=de" target="_blank" rel="follow noopener">https://policies.google.com/privacy?hl=de</a>.</p>
-<h2 class="text-2xl pb-2 pt-3" id="e-mail-marketing-einleitung" >E-Mail-Marketing Einleitung</h2>-->
+<h2 class="text-2xl pb-2 pt-3 text-primary" id="e-mail-marketing-einleitung" >E-Mail-Marketing Einleitung</h2>-->
             <!-- Falls wir mal ne mail liste starten -->
             <!--<table border="1" cellpadding="15">
 <tbody>
@@ -807,19 +811,19 @@
 <h3 class="text-xl pb-1 pt-2" >Rechtsgrundlage</h3>
 <p class="text-normal pb-1">Das Versenden unseres Newsletters erfolgt auf Grundlage Ihrer Einwilligung (Artikel 6 Abs. 1 lit. a DSGVO). Das heißt, wir dürfen Ihnen nur dann einen Newsletter schicken, wenn Sie sich zuvor aktiv dafür angemeldet haben. Gegebenenfalls können wir Ihnen auch Werbenachrichten senden, sofern Sie unser Kunde geworden sind und der Verwendung Ihrer E-Mailadresse für Direktwerbung nicht widersprochen haben.</p>
 <p class="text-normal pb-1">Informationen zu speziellen E-Mail-Marketing Diensten und wie diese personenbezogene Daten verarbeiten, erfahren Sie &#8211; sofern vorhanden &#8211; in den folgenden Abschnitten.</p>
-<h2 class="text-2xl pb-2 pt-3" id="woodpecker-datenschutzerklaerung" >Woodpecker Datenschutzerklärung</h2>
+<h2 class="text-2xl pb-2 pt-3 text-primary" id="woodpecker-datenschutzerklaerung" >Woodpecker Datenschutzerklärung</h2>
 <p class="text-normal pb-1">
 <span  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Wir verwenden auf unserer Website Woodpecker, ein Dienst zur E-Mail-Marketing Automation. &quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:0,&quot;12&quot;:0}">Wir verwenden auf unserer Website Woodpecker, ein Dienst zur E-Mail-Marketing Automation. Dienstanbieter ist das polnische Unternehmen Woodpecker.co Sp. z o. o. mit Sitz in Krakowska 29D street, 50424 Wroclaw, Polen. </span>
 </p>
 <p class="text-normal pb-1">
 <span  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Wir verwenden auf unserer Website Woodpecker, ein Dienst zur E-Mail-Marketing Automation. &quot;}" data-sheets-userformat="{&quot;2&quot;:769,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:0,&quot;12&quot;:0}">Mehr über die Daten, die durch die Verwendung von Woodpecker verarbeitet werden, erfahren Sie in der Privacy Policy auf <a  href="https://woodpecker.co/privacy-policy/">https://woodpecker.co/privacy-policy/</a>.</span>
 </p>-->
-            <h2 class="text-2xl pb-2 pt-3" id="schlusswort">Schlusswort</h2>
+            <h2 class="text-2xl pb-2 pt-3 text-primary" id="schlusswort">Schlusswort</h2>
             <p class="text-normal pb-1">Herzlichen Glückwunsch! Wenn Sie diese Zeilen lesen, haben Sie sich wirklich
                 durch
                 unsere gesamte Datenschutzerklärung „gekämpft“ oder zumindest bis hier hin gescrollt. Wie Sie am Umfang
                 unserer
-                Datenschutzerklärung sehen, nehmen wir den Schutz Ihrer persönlichen Daten, alles andere als auf die
+                Datenschutzerklärung sehen, nehmen wir den Schutz Ihrer persönlichen Daten alles andere als auf die
                 leichte
                 Schulter.<br />
                 Uns ist es wichtig, Sie nach bestem Wissen und Gewissen über die Verarbeitung personenbezogener Daten zu

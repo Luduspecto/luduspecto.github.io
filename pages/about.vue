@@ -28,18 +28,21 @@ const team = [
 <template>
   <LandingContainer>
     <LandingSectionhead>
-      <template v-slot:title>Über uns</template>
-      <template v-slot:desc>Wir sind ein kleines Team mit großer Leidenschaft.</template>
+      <template v-slot:title>
+        <h1 class="text-secondary">Über uns</h1>
+      </template>
+      <template v-slot:desc>
+        <p class="text-secondary font-light">Wir sind ein kleines Team mit großer Leidenschaft.</p>
+      </template>
     </LandingSectionhead>
 
-    <div class="flex flex-col gap-6 mx-auto max-w-4xl mt-8 mb-8 pt-16">
-      <h2 class="font-bold text-3xl text-gray-800">
-        Mit Lern Apps die Welt stärken.
+    <div class="flex flex-col gap-6 mx-auto max-w-4xl mt-8 mb-8 pt-16 bg-secondary p-6 rounded-xl shadow-lg border-primary border-4">
+      <h2 class="font-bold text-3xl text-primary">
+      Mit Lern Apps die Welt stärken.
       </h2>
-      <p class="text-lg leading-relaxed text-slate-500">
-        Wir sind ein kleines, leidenschaftliches Entwicklerteam, spezialisiert auf die Entwicklung von Kartenspiel-Lernapps. Unsere Mission ist es, das Lernen durch spielerische Ansätze zu bereichern. Mit kreativen Ideen, klarem Design und interaktiven Kartenspielen kombinieren wir Wissen und Spaß. Unser Fokus liegt auf der Entwicklung benutzerfreundlicher Apps, die Lernen zu einem unterhaltsamen Erlebnis machen - ideal für alle, die sich gerne spielerisch weiterbilden möchten.
+      <p class="text-lg leading-relaxed text-tertiary">
+      Wir sind ein kleines, leidenschaftliches Entwicklerteam, spezialisiert auf die Entwicklung von Kartenspiel-Lernapps. Unsere Mission ist es, das Lernen durch spielerische Ansätze zu bereichern. Mit kreativen Ideen, klarem Design und interaktiven Kartenspielen kombinieren wir Wissen und Spaß. Unser Fokus liegt auf der Entwicklung benutzerfreundlicher Apps, die Lernen zu einem unterhaltsamen Erlebnis machen - ideal für alle, die sich gerne spielerisch weiterbilden möchten.
       </p>
-    </div>
     <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-12">
       <div v-for="item of team" class="group">
         <div class="w-full aspect-square">
@@ -77,6 +80,7 @@ const team = [
           </div>
         ))
       } -->
+    </div>
     </div>
   </LandingContainer>
 </template>
