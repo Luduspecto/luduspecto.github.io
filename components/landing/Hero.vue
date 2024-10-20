@@ -1,22 +1,10 @@
 <template>
   <main class="grid lg:grid-cols-2 place-items-center pb-8 md:pt-8 md:mt-16 mb-16">
-    <div class="p-24 md:order-1 relative md:block">
-      <img
-        class="rounded-full transition-transform transform scale-125 hover:scale-100"
-        src="~/assets/img/undraw_playing_cards_cywn.png"
-        alt="Starship starts the engine"
-        loading="eager"
-        format="avif"
-        width="512"
-        height="512"
-      />
-    </div>
-
     <div>
-      <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight">
+      <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight text-secondary">
         Jetzt Kartenspielen Lernen
       </h1>
-      <p class="text-lg mt-4 text-slate-600 max-w-xl">
+      <p class="text-lg mt-4 max-w-xl text-secondary">
         Beginne dein Lern Erlebnis mit unseren Kartenspiel Apps.
       </p>
       <div class="mt-6 flex flex-col sm:flex-row gap-3">
@@ -28,7 +16,7 @@
         >
         <LandingLink
           size="lg"
-          styleName="outline"
+          styleName="inverted"
           rel="noopener"
           href="/schafkopf"
           target="_blank"

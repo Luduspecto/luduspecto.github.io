@@ -1,12 +1,16 @@
 <template>
     <LandingContainer>
         <LandingSectionhead>
-            <template v-slot:title>Impressum</template>
-            <template v-slot:desc>Viele wichtige Information finden sie hier.</template>
+            <template v-slot:title>
+                <h1 class="text-secondary">Impressum</h1>
+            </template>
+            <template v-slot:desc>
+                <p class="text-secondary font-light">Informationspflicht laut § 5 TMG.</p>
+            </template>
         </LandingSectionhead>
 
-        <div class="container mt-16 font-light" data-text-language="de">
-            <h1 class="text-4xl pb-2 font-normal">
+        <div class="flex flex-col gap-6 mx-auto max-w-4xl mt-8 mb-8 pt-16 bg-secondary p-6 rounded-xl shadow-lg border-primary border-4 text-tertiary" data-text-language="de">
+            <h1 class="text-4xl pb-2 font-normal text-primary">
                 Impressum
             </h1>
             <p class="text-base">Informationspflicht laut § 5 TMG.</p>
@@ -31,7 +35,7 @@
                     style="text-decoration:none;">Impressum Generator</a> von AdSimple in Kooperation mit <a
                     href="https://www.123familie.de" target="_blank" rel="follow" title="">123familie.de</a>
             </p>
-            <h2 class="text-2xl pb-1 pt-2">EU-Streitschlichtung</h2>
+            <h2 class="text-2xl pb-1 pt-2 text-primary">EU-Streitschlichtung</h2>
             <p>Gemäß Verordnung über Online-Streitbeilegung in Verbraucherangelegenheiten (ODR-Verordnung) möchten wir
                 Sie
                 über die Online-Streitbeilegungsplattform (OS-Plattform) informieren.<br />
@@ -42,7 +46,7 @@
                 notwendigen Kontaktdaten finden Sie oberhalb in unserem Impressum.</p>
             <p>Wir möchten Sie jedoch darauf hinweisen, dass wir nicht bereit oder verpflichtet sind, an
                 Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
-            <h2 class="text-2xl pb-1 pt-2">Haftung für Inhalte dieser Website</h2>
+            <h2 class="text-2xl pb-1 pt-2 text-primary">Haftung für Inhalte dieser Website</h2>
             <p>Wir entwickeln die Inhalte dieser Webseite ständig weiter und bemühen uns korrekte und aktuelle
                 Informationen
                 bereitzustellen. Laut Telemediengesetz <a class="text-base"
@@ -63,7 +67,7 @@
             <p>Sollten Ihnen problematische oder rechtswidrige Inhalte auffallen, bitte wir Sie uns umgehend zu
                 kontaktieren, damit wir die rechtswidrigen Inhalte entfernen können. Sie finden die Kontaktdaten im
                 Impressum.</p>
-            <h2 class="text-2xl pb-1 pt-2">Haftung für Links auf dieser Website</h2>
+            <h2 class="text-2xl pb-1 pt-2 text-primary">Haftung für Links auf dieser Website</h2>
             <p>Unsere Webseite enthält Links zu anderen Webseiten für deren Inhalt wir nicht verantwortlich sind.
                 Haftung
                 für verlinkte Websites besteht für uns nicht, da wir keine Kenntnis rechtswidriger Tätigkeiten hatten
@@ -73,7 +77,7 @@
             <p>Wenn Ihnen rechtswidrige Links auf unserer Website auffallen, bitte wir Sie uns zu kontaktieren. Sie
                 finden
                 die Kontaktdaten im Impressum.</p>
-            <h2 class="text-2xl pb-1 pt-2">Urheberrechtshinweis</h2>
+            <h2 class="text-2xl pb-1 pt-2 text-primary">Urheberrechtshinweis</h2>
             <p>Alle Inhalte dieser Webseite (Bilder, Fotos, Texte, Videos) unterliegen dem Urheberrecht der
                 Bundesrepublik
                 Deutschland. Bitte fragen Sie uns bevor Sie die Inhalte dieser Website verbreiten, vervielfältigen oder
@@ -81,7 +85,7 @@
                 unerlaubte Nutzung von Teilen der Inhalte unserer Seite rechtlich verfolgen.</p>
             <p>Sollten Sie auf dieser Webseite Inhalte finden, die das Urheberrecht verletzen, bitten wir Sie uns zu
                 kontaktieren.</p>
-            <h2 class="text-2xl pb-1 pt-2">Bildernachweis</h2>
+            <h2 class="text-2xl pb-1 pt-2 text-primary">Bildernachweis</h2>
             <p>Die Bilder, Fotos und Grafiken auf dieser Webseite sind urheberrechtlich geschützt.</p>
             <p>Die Bilderrechte liegen bei den folgenden Fotografen und Unternehmen:</p>
             <ul class="text-base list-disc list-inside">

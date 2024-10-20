@@ -18,9 +18,9 @@ const sizes = {
 };
 
 const styles = {
-  outline: "border-2 border-black hover:bg-black text-black hover:text-white",
+  outline: "border-2 border-primary hover:bg-primary text-primary hover:text-secondary",
   primary:
-    "bg-black text-white hover:bg-slate-900  border-2 border-transparent",
+    "bg-primary text-secondary hover:bg-tertiary border-2 border-transparent",
 };
 </script>
 

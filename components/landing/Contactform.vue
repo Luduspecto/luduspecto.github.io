@@ -72,7 +72,7 @@ onMounted(() => {
         type="text"
         placeholder="Name"
         required
-        class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
+        class="w-full px-4 py-3 border-2 placeholder:text-tertiary rounded-md outline-none focus:ring-4 border-tertiary focus:border-primary ring-gray-100"
         name="name"
       />
       <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
@@ -87,7 +87,7 @@ onMounted(() => {
         placeholder="Email Adresse"
         name="email"
         required
-        class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
+        class="w-full px-4 py-3 border-2 placeholder:text-tertiary rounded-md outline-none focus:ring-4 border-tertiary focus:border-primary ring-gray-100"
       />
       <div class="empty-feedback text-red-400 text-sm mt-1">
         Bitte geben Sie ihre Email Adresse an.
@@ -101,7 +101,7 @@ onMounted(() => {
         name="message"
         required
         placeholder="Ihre Nachricht"
-        class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none h-36 focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
+        class="w-full px-4 py-3 border-2 placeholder:text-tertiary rounded-md outline-none h-36 focus:ring-4 border-tertiary focus:border-primary ring-gray-100"
       ></textarea>
       <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
         Bitte geben Sie eine Nachricht ein.

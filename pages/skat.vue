@@ -1,7 +1,7 @@
 <template>
     <LandingContainer>
 
-        <div class="p-4 mb-2 mt-8 text-sm text-blue-800 bg-blue-50 border border-blue-300 rounded-lg" role="alert">
+        <div class="p-4 mb-2 mt-8 text-sm text-tertiary bg-secondary border border-tertiary rounded-lg" role="alert">
             <span class="font-medium">Hallo!</span> Danke fürs vorbei schauen, hier gits noch nicht viel zu sehen Skat Offline Lernen ist noch in der Entwicklung.
         </div>
 
