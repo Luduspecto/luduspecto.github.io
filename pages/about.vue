@@ -32,16 +32,16 @@ const team = [
         <h1 class="text-secondary">Über uns</h1>
       </template>
       <template v-slot:desc>
-        <p class="text-secondary font-light">Wir sind ein kleines Team mit großer Leidenschaft.</p>
+        <p class="text-secondary font-light">Wir sind ein kleines Team mit großer Leidenschaft</p>
       </template>
     </LandingSectionhead>
 
     <div class="flex flex-col gap-6 mx-auto max-w-4xl mt-8 mb-8 pt-16 bg-secondary p-6 rounded-xl shadow-lg border-primary border-4">
       <h2 class="font-bold text-3xl text-primary">
-      Mit Lern Apps die Welt stärken.
+      Die Freude am Spielen teilen
       </h2>
       <p class="text-lg leading-relaxed text-tertiary">
-      Wir sind ein kleines, leidenschaftliches Entwicklerteam, spezialisiert auf die Entwicklung von Kartenspiel-Lernapps. Unsere Mission ist es, das Lernen durch spielerische Ansätze zu bereichern. Mit kreativen Ideen, klarem Design und interaktiven Kartenspielen kombinieren wir Wissen und Spaß. Unser Fokus liegt auf der Entwicklung benutzerfreundlicher Apps, die Lernen zu einem unterhaltsamen Erlebnis machen - ideal für alle, die sich gerne spielerisch weiterbilden möchten.
+      Wir sind ein kleines, leidenschaftliches Entwicklerteam, dessen Ziel es ist, die Welt der Karten- und Gesellschaftsspiele für jeden zugänglich zu machen. Unsere interaktiven und benutzerfreundlichen Apps bieten eine unterhaltsame und werbefreie Umgebung, in der Spieler jeden Alters neue Spiele lernen und ihr Können verbessern können. Wir glauben fest daran, dass Karten- und Gesellschaftsspiele  wertvolle soziale Erlebnisse schaffen, die  Spaß machen,  strategisches Denken fördern und Menschen zusammenbringen. Mit unseren Apps möchten wir dazu beitragen, diese einzigartigen Spielerlebnisse einem breiteren Publikum zu eröffnen.
       </p>
     <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-12">
       <div v-for="item of team" class="group">
