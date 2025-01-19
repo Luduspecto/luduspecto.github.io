@@ -34,6 +34,16 @@ const featureDictionary = {
       title: "Mehr als nur Bilder und Text: Erlebe Skat mit unserem interaktiven Tutorial.",
       description:
         "Unser interaktives Tutorial ist der perfekte Einstieg für alle, die dieses spannende Kartenspiel erlernen möchten. Vergiss stundenlanges Lesen von komplizierten Regelbüchern! Hier wirst du Schritt für Schritt und spielerisch an die Hand genommen.\nDu wirst aktiv in den Lernprozess eingebunden und kannst dein Wissen direkt anwenden. Animationen zeigen dir anschaulich, wie die Karten gespielt werden, und interaktive Quizfragen helfen dir, die Regeln und Strategien schnell zu verinnerlichen. So macht Lernen Spaß und du wirst im Handumdrehen zum Skat-Ass!",
+    },
+    {
+      title: "Für das Handy optimiert; im Hoch- und Querformat",
+      description:
+        "Erlebe Skat in einer völlig neuen Dimension – perfekt für dein Handy!  Unsere App wurde speziell für dein Smartphone entwickelt. Schluss mit winzigen Karten und unleserlichem Text! Wir haben unser eigenes Kartenmotiv mit extra großen Symbolen entworfen, die gestochen scharf auf jedem Display dargestellt werden. Die intuitive Benutzeroberfläche garantiert ein Spielerlebnis, das perfekt auf dein Handy abgestimmt ist. Und das Beste: Du hast die Wahl, ob du lieber im Hoch- oder Querformat spielst!",
+    },
+    {
+      title: "Offline-Skat: Perfekt für unterwegs",
+      description:
+        "Spiele Skat wann und wo du willst – ganz ohne Internetverbindung. Steige jederzeit wieder ein und setze dein Spiel genau dort fort, wo du aufgehört hast. Keine Unterbrechungen, keine Wartezeiten, keine Abhängigkeit von Empfang oder WLAN.",
     }
   ],
   schafkopf: [],
