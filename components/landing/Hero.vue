@@ -15,7 +15,7 @@
 
     <div>
       <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight text-secondary">
-        Jetzt <wbr />Kartenspielen <wbr />Lernen
+        Der Ort zum <wbr />Kartenspielen <wbr />Lernen
       </h1>
       <p class="text-lg mt-4 max-w-xl text-secondary">
         Beginne dein Lern Erlebnis mit unseren Kartenspiel Apps.

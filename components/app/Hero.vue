@@ -1,5 +1,13 @@
 <script setup>
-const props = defineProps(['googel_url', 'apple_url', 'image_url'])
+const props = defineProps({
+  googel_url: String,
+  apple_url: String,
+  image_url: String,
+  google_button_text: {
+    type: String,
+    default: 'Play Store'
+  }
+})
 </script>
 
 <template>
@@ -7,7 +15,7 @@ const props = defineProps(['googel_url', 'apple_url', 'image_url'])
       <div class="p-24 md:order-1 relative md:block">
         <img
           class="rounded-full transition-transform transform hover:scale-125"
-          :src=props.image_url
+          :src="props.image_url"
           alt="Game Logo"
           loading="eager"
           format="avif"
@@ -25,20 +33,21 @@ const props = defineProps(['googel_url', 'apple_url', 'image_url'])
         </p>
         <div class="mt-6 flex flex-col sm:flex-row gap-3">
           <LandingLink
-            :href=props.googel_url
+            :href="props.googel_url"
             target="_blank"
             rel="noopener"
-            >Play Store</LandingLink
+            >{{ props.google_button_text }}</LandingLink
           >
           <LandingLink
+            v-if="props.apple_url"
             size="lg"
             styleName="inverted"
             rel="noopener"
-            :href=props.apple_url
+            :href="props.apple_url"
             target="_blank"
             >App Store</LandingLink
           >
         </div>
       </div>
     </main>
-  </template>
+</template>

@@ -1,52 +1,66 @@
 <script setup>
-const features = [
-  {
-    title: "100 % Ohne Werbung",
-    description:
-      "Lerne ohne durch Werbung unterbrochen zu werden. So macht lernen Spaß",
-    icon: "bx:bxs-gift",
+import { computed } from 'vue';
+import { defineProps } from 'vue';
+
+const props = defineProps({
+  ftype: {
+    type: String,
+    required: true,
   },
-  {
-    title: "Funktioniert auch Offline",
-    description:
-      "Alle Tutorials und Leistungsstarke Gegner immer dabei auch ohne eine Internet Verbindung",
-    icon: "bx:bxs-layer",
-  },
-  {
-    title: "Ohne Ingame-Käufe",
-    description:
-      "Einmal zahlen und keine weiteren Micro-Transaktion für dein vollstendinges Kartenspiel Erlebnis",
-    icon: "bx:bxs-briefcase",
-  },
-  {
-    title: "Realistische Computergegner",
-    description:
-      "Wir wissen wie nervig es ist, wenn es sich anfühlt, als würden die Computer nur zufällige Karten legen. Aus diesem Grund waren uns realistische Gegner in unserem Spiel von Tag 1 an die höchste Priorität.",
-    icon: "bx:bxs-brain",
-  },
-  {
-    title: "Lasse dir vom Assistenten helfen",
-    description:
-      "Falls du dir jemals nicht ganz sicher sein solltest, welche Karte du legen solltest, welche Trümpfe schon gelegt wurden, oder mit dem du spielst, kann dir der neue Assistent live im Spiel helfen.",
-    icon: "bx:bxs-bot",
-  },
-  {
-    title: "Messe dich mit deinen Freunden",
-    description:
-      "Achievements und Bestenlisten bieten einen spannenden Vergleich mit anderen Spielern. Untersuche mit ausführlichen Statistiken dein Spielverhalten und deinen Fortschritt.",
-    icon: "bx:bxs-party",
-  },
-];
+});
+const featureDictionary = {
+  homepage: [
+    {
+      title: "100 % Ohne Werbung",
+      description:
+        "Lerne ohne durch Werbung unterbrochen zu werden. Keine Werbebanner oder Spielunterbrechungen.",
+      icon: "bx:bxs-gift",
+    },
+    {
+      title: "Funktioniert auch Offline",
+      description:
+        "Alle Tutorials und leistungsstarke Gegner immer dabei, auch ohne eine Internet Verbindung.",
+      icon: "bx:bxs-layer",
+    },
+    {
+      title: "Interaktive Tutorialeinheiten",
+      description:
+        "Unsere interaktiven Tutorials mit Übungsmodulen helfen dir gezielt Strategien und Skills zu üben.",
+      icon: "bx:bxs-briefcase",
+    },
+  ],
+  skat: [
+    {
+      title: "Mehr als nur Bilder und Text: Erlebe Skat mit unserem interaktiven Tutorial.",
+      description:
+        "Unser interaktives Tutorial ist der perfekte Einstieg für alle, die dieses spannende Kartenspiel erlernen möchten. Vergiss stundenlanges Lesen von komplizierten Regelbüchern! Hier wirst du Schritt für Schritt und spielerisch an die Hand genommen.\nDu wirst aktiv in den Lernprozess eingebunden und kannst dein Wissen direkt anwenden. Animationen zeigen dir anschaulich, wie die Karten gespielt werden, und interaktive Quizfragen helfen dir, die Regeln und Strategien schnell zu verinnerlichen. So macht Lernen Spaß und du wirst im Handumdrehen zum Skat-Ass!",
+    }
+  ],
+  schafkopf: [],
+};
+const features = computed(() => featureDictionary[props.ftype] || []);
+
+const headerDictionary = {
+  homepage: "Alles was du zum Lernen brauchst",
+  skat: "Skat lernen leicht gemacht"
+}
+const header = computed(() => headerDictionary[props.ftype] || "");
+
+const footerDictionary = {
+  homepage: "Mit unseren premium Lern-Apps bist du im Handumdrehen in der Lage bei der nächsten Skat- oder Schafkopfrunde zu glänzen.",
+  skat: "Mit unserer Skat Lern-App wirst du in kürzester Zeit zum Profi. Lerne die Regeln, Strategien und Eigenheiten des Skatspiels."
+}
+const footer = computed(() => footerDictionary[props.ftype] || "");
 </script>
 
 <template>
   <div class="relative bg-secondary p-8 rounded-xl shadow-lg border-4 border-primary">
     <div class="mt-16 md:mt-0">
       <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight text-primary">
-        Alles was du zum Lernen brauchst
+        {{ header }}
       </h2>
       <p class="text-lg mt-4 text-tertiary">
-        Unsere Lern Apps enthalten leicht zu verstehende Erklärungen zu den wichtigsten Elementen der Spiele und darüber hinaus.
+        {{ footer }}
       </p>
     </div>
 

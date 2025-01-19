@@ -1,7 +1,7 @@
 <template>
   <LandingContainer>
     <LandingHero></LandingHero>
-    <LandingFeatures></LandingFeatures>
+    <LandingFeatures ftype="homepage"></LandingFeatures>
     <LandingLogos></LandingLogos>
     <LandingCta></LandingCta>
   </LandingContainer>
