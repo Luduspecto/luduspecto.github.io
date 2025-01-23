@@ -23,7 +23,6 @@
       <div class="mt-6 flex flex-col sm:flex-row gap-3">
         <LandingLink
           href="/skat"
-          target="_blank"
           rel="noopener"
           >Skat</LandingLink
         >
@@ -32,7 +31,6 @@
           styleName="inverted"
           rel="noopener"
           href="/schafkopf"
-          target="_blank"
           >Schafkopf</LandingLink
         >
       </div>

@@ -6,8 +6,8 @@
       Finde unsere Kartenspiel Apps in deinem App Store.
     </p>
     <div class="flex mt-5 gap-4">
-      <LandingLink href="https://play.google.com/store/apps/developer?id=Ludus+Pecto+Games" styleName="inverted">Google Play Store</LandingLink>
-      <LandingLink href="https://apps.apple.com/de/developer/sebastian-nadler/id1534706893" styleName="inverted">Apple App Store</LandingLink>
+      <LandingLink href="https://play.google.com/store/apps/developer?id=Ludus+Pecto+Games" styleName="inverted" target="_blank">Google Play Store</LandingLink>
+      <LandingLink href="https://apps.apple.com/de/developer/sebastian-nadler/id1534706893" styleName="inverted" target="_blank">Apple App Store</LandingLink>
     </div>
   </div>
 </template>
