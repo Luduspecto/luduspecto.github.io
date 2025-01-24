@@ -98,6 +98,7 @@
                     Analytics) und die Fehlererkennung (Firebase Crashlytics) bereit. Dabei können Daten in die USA
                     übertragen
                     werden. Google verpflichtet sich, die Daten gemäß den EU-Standardvertragsklauseln zu schützen.</li>
+                <li class="pl-4 pb-2"><strong>Jira:</strong> Absturzberichte und Fehlermeldungen aus Firebase Crashlytics können in Jira übertragen werden, um technische Probleme effizient zu verfolgen und zu beheben. Dabei wird sichergestellt, dass die Daten gemäß den geltenden Datenschutzbestimmungen verarbeitet werden.</li>
             </ul>
             <p class="text-base pb-1">Wir stellen sicher, dass alle Drittanbieter die einschlägigen Datenschutzvorgaben, einschließlich der
                 DSGVO, CCPA
