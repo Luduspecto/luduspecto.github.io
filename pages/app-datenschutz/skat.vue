@@ -165,6 +165,8 @@
                 oder neue Funktionen der App anzupassen. Über wesentliche Änderungen informieren wir Sie rechtzeitig
                 über die
                 App. Die jeweils aktuelle Version ist jederzeit über die App einsehbar.</p>
+            <h2 class="text-2xl pb-2 pt-3 text-primary">Zustimmung und Opt-out-Möglichkeiten</h2>
+            <p class="text-base pb-1">Beim erstmaligen Start der App bitten wir um Ihre ausdrückliche Zustimmung zur Verarbeitung Ihrer Daten. Diese Zustimmung kann jederzeit in den App-Einstellungen widerrufen werden.</p>
         </div>
     </LandingContainer>
 
