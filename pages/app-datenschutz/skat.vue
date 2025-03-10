@@ -108,7 +108,7 @@
             <p class="text-base pb-1">Die Speicherdauer Ihrer personenbezogenen Daten richtet sich nach dem jeweiligen Zweck der Verarbeitung:
             </p>
             <ul class="list-disc list-inside">
-                <li class="pl-4 pb-2">Nutzungs- und Diagnosedaten werden grundsätzlich für maximal 12 Monate gespeichert, sofern kein
+                <li class="pl-4 pb-2">Nutzungs- und Diagnosedaten werden grundsätzlich für maximal 2 Monate gespeichert, sofern kein
                     längerer
                     Zeitraum gesetzlich vorgeschrieben oder erforderlich ist.</li>
                 <li class="pl-4 pb-2">Absturzberichte werden gelöscht, sobald sie für die Fehlerbehebung nicht mehr benötigt werden.</li>
