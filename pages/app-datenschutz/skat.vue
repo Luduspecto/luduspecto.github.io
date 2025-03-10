@@ -50,7 +50,6 @@
 
             <h3 class="text-xl pb-1 pt-2">Automatisch erhobene Daten</h3>
             <ul class="list-disc list-inside">
-                <li class="pl-4 pb-2">IP-Adressen (in anonymisierter Form).</li>
                 <li class="pl-4 pb-2">Log-Dateien, die Zugriffszeiten und Fehlermeldungen enthalten.</li>
             </ul>
 
