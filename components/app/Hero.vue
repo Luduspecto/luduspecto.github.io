@@ -5,7 +5,11 @@ const props = defineProps({
   image_url: String,
   google_button_text: {
     type: String,
-    default: 'Play Store'
+    default: 'Android'
+  },
+  ios_button_text: {
+    type: String,
+    default: 'iPhone'
   }
 })
 </script>
